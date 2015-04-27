@@ -1,6 +1,6 @@
 {
   "name": "history",
-  "repo": "devote/HTML5-History-API",
+  "repo": "pressreader/HTML5-History-API",
   "description": "HTML5 History API expansion for browsers not supporting pushState, replaceState",
   "version": "4.2.0",
   "keywords": ["history", "pushState", "replaceState"],
@@ -11,7 +11,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/devote/HTML5-History-API"
+    "url": "git://github.com/pressreader/HTML5-History-API"
   },
   "author": {
     "name": "Dmitrii Pakhtinov",
