@@ -11,12 +11,11 @@
  *   http://www.opensource.org/licenses/mit-license.php
  *   http://www.gnu.org/licenses/gpl.html
  *
- * Update: 2014-11-06 21:35
+ * Update: 2015-04-27
  */
 (function(factory) {
     if (typeof define === 'function' && define['amd']) {
-        // https://github.com/devote/HTML5-History-API/issues/57#issuecomment-43133600
-        define(typeof document !== "object" || document.readyState !== "loading" ? [] : "html5-history-api", factory);
+        define("history", [], factory);
     } else {
         factory();
     }
